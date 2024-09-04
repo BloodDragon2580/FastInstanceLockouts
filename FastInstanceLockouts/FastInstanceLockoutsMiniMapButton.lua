@@ -3,12 +3,12 @@ local AceGUI = LibStub("AceGUI-3.0")
 -- Lokalisierte Texte für verschiedene Sprachen
 local localizedTexts = {
     enUS = {
-        Links = "Click left to open the Fast Instance Lockouts Frame.",
-        Rechts = "Hold right-click to move the Minimap button.",
+        ILFLinks = "Click left to open the Fast Instance Lockouts Frame.",
+        ILFRechts = "Hold right-click to move the Minimap button.",
     },
     deDE = {
-        Links = "Zum Öffnen des Fast Instance Lockouts Frame links klicken.",
-        Rechts = "Rechtsklick halten, um den Minikarten-Button zu verschieben.",
+        ILFLinks = "Zum Öffnen des Fast Instance Lockouts Frame links klicken.",
+        ILFRechts = "Rechtsklick halten, um den Minikarten-Button zu verschieben.",
     },
     -- Weitere Sprachen können hier hinzugefügt werden
 }
@@ -20,12 +20,12 @@ local locale = GetLocale()
 print("Current Locale:", locale)
 
 -- Setze die Standardwerte, falls die Sprache nicht definiert ist
-_G["linksText"] = localizedTexts[locale] and localizedTexts[locale].Links or "Click left to open the Fast Instance Lockouts Frame."
-_G["rechtsText"] = localizedTexts[locale] and localizedTexts[locale].Rechts or "Hold right-click to move the Minimap button."
+_G["ILFlinksText"] = localizedTexts[locale] and localizedTexts[locale].ILFLinks or "Click left to open the Fast Instance Lockouts Frame."
+_G["ILFrechtsText"] = localizedTexts[locale] and localizedTexts[locale].ILFRechts or "Hold right-click to move the Minimap button."
 
 -- Debug-Ausgaben für die Textwerte
-print("LinksText:", _G["linksText"])
-print("RechtsText:", _G["rechtsText"])
+print("ILFLinksText:", _G["ILFlinksText"])
+print("ILFRechtsText:", _G["ILFrechtsText"])
 
 FastInstanceLockouts_Settings = {
 	MinimapPos = 45
