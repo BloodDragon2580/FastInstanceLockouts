@@ -47,7 +47,7 @@ frame:SetScript("OnDragStart", function(self)
     end
 end)
 frame:SetScript("OnDragStop", frame.StopMovingOrSizing)
-frame:hide()
+frame:Hide()
 
 -- Modernes Design mit abgerundeten Ecken und einem halbtransparenten Hintergrund
 frame:SetBackdrop({
