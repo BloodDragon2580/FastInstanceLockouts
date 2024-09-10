@@ -16,16 +16,9 @@ local localizedTexts = {
 -- Bestimme die aktuelle Sprache
 local locale = GetLocale()
 
--- Debug-Ausgaben für die Sprache
-print("Current Locale:", locale)
-
 -- Setze die Standardwerte, falls die Sprache nicht definiert ist
 _G["ILFlinksText"] = localizedTexts[locale] and localizedTexts[locale].ILFLinks or "Click left to open the Fast Instance Lockouts Frame."
 _G["ILFrechtsText"] = localizedTexts[locale] and localizedTexts[locale].ILFRechts or "Hold right-click to move the Minimap button."
-
--- Debug-Ausgaben für die Textwerte
-print("ILFLinksText:", _G["ILFlinksText"])
-print("ILFRechtsText:", _G["ILFrechtsText"])
 
 FastInstanceLockouts_Settings = {
 	MinimapPos = 45
