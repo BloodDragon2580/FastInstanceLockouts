@@ -1,8 +1,8 @@
-## Interface: 110100
+## Interface: 110105
 ## Title:|cffd6266cFast Instance Lockouts|r
 ## Notes: Zeigt deine aktuellen Instanz Lockouts an
 ## Author: BloodDragon2580
-## Version: 4.7
+## Version: 4.8
 ## SavedVariables: FastInstanceLockoutsDB
 ## IconTexture: Interface\AddOns\FastInstanceLockouts\Media\Texture\logo
 ## OptionalDeps: LibDataBroker-1.1, LibDBIcon-1.0, AceDB-3.0
