@@ -10,6 +10,10 @@ local localizedTexts = {
         ILFLinks = "Zum Öffnen des Fast Instance Lockouts Frame links klicken.",
         ILFRechts = "Rechtsklick halten, um den Minikarten-Button zu verschieben.",
     },
+    ruRU = {
+        ILFLinks = "ЛКМ - открыть фрейм быстрой блокировки подземелий.",
+        ILFRechts = "Удерживайте ПКМ, чтобы переместить кнопку миникарты.",
+    },
     -- Weitere Sprachen können hier hinzugefügt werden
 }
 
