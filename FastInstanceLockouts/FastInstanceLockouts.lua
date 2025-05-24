@@ -24,6 +24,11 @@ local translations = {
         lockPosition = "Blocca posizione",
         frameTitle = "Fast Instance Lockouts",
         noLockouts = "Nessun blocco trovato."
+    },
+    ["ruRU"] = {
+        lockPosition = "Положение блокировки",
+        frameTitle = "Fast Instance Lockouts",
+        noLockouts = "Блокировок не обнаружено."
     }
 }
 
