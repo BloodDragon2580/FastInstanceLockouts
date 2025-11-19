@@ -3,7 +3,7 @@
 ## Notes: Zeigt deine aktuellen Instanz Lockouts an
 ## Notes-ruRU: Показывает Ваши текущие блокировки подземелий
 ## Author: BloodDragon2580
-## Version: 7.4
+## Version: 7.5
 ## SavedVariables: FastInstanceLockoutsDB
 ## IconTexture: Interface\AddOns\FastInstanceLockouts\Media\Texture\logo
 ## OptionalDeps: LibDataBroker-1.1, LibDBIcon-1.0, AceDB-3.0
