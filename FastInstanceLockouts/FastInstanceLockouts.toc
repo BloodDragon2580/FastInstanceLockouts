@@ -1,4 +1,4 @@
-## Interface: 120000
+## Interface: 120001
 ## Title:|cffd6266cFast Instance Lockouts|r
 ## Notes: Zeigt deine aktuellen Instanz Lockouts an
 ## Notes-ruRU: Показывает Ваши текущие блокировки подземелий
