@@ -1,9 +1,9 @@
-## Interface: 120000
+## Interface: 120001
 ## Title:|cffd6266cFast Instance Lockouts|r
 ## Notes: Zeigt deine aktuellen Instanz Lockouts an
 ## Notes-ruRU: Показывает Ваши текущие блокировки подземелий
 ## Author: BloodDragon2580
-## Version: 7.9
+## Version: 8.0
 ## SavedVariables: FastInstanceLockoutsDB
 ## IconTexture: Interface\AddOns\FastInstanceLockouts\Media\Texture\logo
 ## OptionalDeps: LibDataBroker-1.1, LibDBIcon-1.0, AceDB-3.0
